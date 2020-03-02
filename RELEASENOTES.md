@@ -1,7 +1,7 @@
 Project Boilerplate :: RELEASE NOTES
 ===================================
 
-0.1.0 - 2017-11-03
+0.1 - 2017-11-07
 ------------------
 
-Initial commit, this is the first release.
+Initial project creation and repo setup.
