@@ -10,22 +10,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 
-## [0.1.0] - 2017-11-05
+## [0.1] - 2017-11-07
 
 ### Added
- * **Important:** This is the first release.
+ * **Important:** Initial project creation and repo setup.
  
 ### Changed
- * **Important:** This is the first release.
+ * **Important:** Initial project creation and repo setup.
  
 ### Deprecated
- * **Important:** This is the first release.
+ * **Important:** Initial project creation and repo setup.
  
 ### Removed
- * **Important:** This is the first release.
+ * **Important:** Initial project creation and repo setup.
  
 ### Fixed
- * **Important:** This is the first release.
+ * **Important:** Initial project creation and repo setup.
  
 ### Security
- * **Important:** This is the first release.
+ * **Important:** Initial project creation and repo setup.
