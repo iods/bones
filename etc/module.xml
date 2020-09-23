@@ -8,12 +8,12 @@
  * @category  Iods
  * @package   Iods_Bones
  * @author    Rye Miller
- * @version   0.1.0
+ * @version   0.2.0
  * @copyright Copyright (c) 2020, Rye Miller (http://ryemiller.io)
  * @license   MIT (https://en.wikipedia.org/wiki/MIT_License)
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Iods_Bones" setup_version="0.1.0" />
+    <module name="Iods_Bones" setup_version="0.2.0" />
 </config>

@@ -14,18 +14,32 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
  * **Important:** Initial project creation and repo setup.
- 
+
 ### Changed
  * **Important:** Initial project creation and repo setup.
- 
+
 ### Deprecated
  * **Important:** Initial project creation and repo setup.
- 
+
 ### Removed
  * **Important:** Initial project creation and repo setup.
- 
+
 ### Fixed
  * **Important:** Initial project creation and repo setup.
- 
+
 ### Security
  * **Important:** Initial project creation and repo setup.
+
+## [0.2] - 2020-09-23
+
+### Added
+ * Magento 2 module architecture and base registration was added.
+
+### Changed
+ * Module architecture and platform was changed from Drupal 8 to Magento 2.
+
+### Removed
+ * TODO.md was removed
+ * CONTRIBUTING.md was removed
+ * RELEASENOTES.md was removed
+
