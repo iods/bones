@@ -1,5 +1,5 @@
-Drupal Bones :: CHANGELOG
-=========================
+Magento 2 Bones :: CHANGELOG
+============================
 
 All notable changes to this project will be documented in this file.
 
