@@ -7,7 +7,7 @@ A starter project for beginning module development in Magento 2
 Facts
 -----
 
- * Version: 1.2.0
+ * Version: 1.2.1
  * [Repository on Github](https://github.com/iods/magento2-bones)
  
 
