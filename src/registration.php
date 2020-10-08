@@ -7,7 +7,7 @@
  * @category  Iods
  * @package   Iods_Bones
  * @author    Rye Miller
- * @version   0.2.0
+ * @version   1.2.0
  * @copyright Copyright (c) 2020, Rye Miller (http://ryemiller.io)
  * @license   MIT (https://en.wikipedia.org/wiki/MIT_License)
  */
