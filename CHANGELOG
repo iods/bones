@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
  * **Important:** Initial project creation and repo setup.
 
+
 ## [0.2] - 2020-09-23
 
 ### Added
@@ -43,3 +44,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
  * CONTRIBUTING.md was removed
  * RELEASENOTES.md was removed
 
+
+## [1.2] - 2020-10-07
+
+### Changed
+ * Updated the structure again for a composer/packagist based project.
+
+### Removed
+ * Documents from repo not important to the project.
