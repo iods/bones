@@ -38,6 +38,9 @@ $ bin/magento setup:upgrade
 $ bin/magento cache:flush 
 ```
 
+Development
+-----------
+
 ### Structure
 
 How does it work? What components in the module exist. What is different. Link to devdocs.
