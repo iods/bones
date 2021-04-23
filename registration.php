@@ -1,16 +1,13 @@
-<?php declare(strict_types=1);
+<?php
 /**
- * DISCLAIMER
- * Do not edit or add to this file if you wish to upgrade the modules
- * in the Darkstar Magento 2 Suite to newer versions in the future.
+ * Description of a module goes here for Magento 2
  *
- * @category  Iods
  * @package   Iods_Bones
- * @author    Rye Miller
- * @version   1.2.1
- * @copyright Copyright (c) 2020, Rye Miller (https://ryemiller.io)
+ * @author    Rye Miller <rye@drkstr.dev>
+ * @copyright Copyright © 2020, Rye Miller (https://ryemiller.io)
  * @license   MIT (https://en.wikipedia.org/wiki/MIT_License)
  */
+declare(strict_types=1);
 
 use Magento\Framework\Component\ComponentRegistrar;
 

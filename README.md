@@ -1,5 +1,4 @@
-Magento 2 Bones
-===================
+<h1 align="center">Magento 2 Bones</h1>
 
 ### Description
 
@@ -28,6 +27,19 @@ Instructions on how to download, install, and configure the module.
 
  * Link to any Github issues, or list issues w/ Magento 2 compatibility or Extension compatibility
 
+
+## Related Projects / Tickets / Stories
+
+If you use your module internally, try to add links to related documentation covered in projects or tickets.
+
+* [#00000](https://yourProjectManagementSystem.com/yourTicketNumber) - Task Title goes here
+* [#00001](https://yourProjectManagementSystem.com/yourTicketNumber) - Task Title goes here
+* [#00002](https://yourProjectManagementSystem.com/yourTicketNumber) - Task Title goes here
+* [#00003](https://yourProjectManagementSystem.com/yourTicketNumber) - Task Title goes here
+* [#00004](https://yourProjectManagementSystem.com/yourTicketNumber) - Task Title goes here
+* [#00005](https://yourProjectManagementSystem.com/yourTicketNumber) - Task Title goes here
+
+
 ### Installation
 
 Includes a series of step-by-step examples for installation and configuration.
@@ -37,6 +49,40 @@ $ bin/magento module:enable Iods_Bones
 $ bin/magento setup:upgrade
 $ bin/magento cache:flush 
 ```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Your Framework](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Your Dependency Management](https://maven.apache.org/) - Dependency Management
+* [Other Tools, you use](https://rometools.github.io/rome/) - Any Kind of Generator for example
+
+## Magento 2
+
+### Components
+
+Explain how you made you module. Did you make use of Plugins or Observers? Where is the entry point of the module.
+
+### Extensions
+
+Explain how to extend your module.
+
+```
+Give an example
+```
+
+### Configurations
+
+Give an overview of the given configurations.
+
+| Section | Group | Field | Description | 
+| ------ | ----- | ----- | ----------- |
+| web | default | cms_home_page | Select the CMS Home Page |
+| web | default| cms_no_route | Select the 404 Page |
+| web | default | cms_no_cookies | Select the No Cookies Page |
 
 Development
 -----------
@@ -76,6 +122,13 @@ Does the module introduce any public API? what services are introduced?
   * Change status and state
 ```
 
+## Packagist Setting
+
+- [Create account](https://packagist.org/register/)
+- Connect with Github account
+- [Submit package](https://packagist.org/packages/submit)
+    - URL example: `https://github.com/rangerz/magento2-module-template`
+
 
 ### Tests
 
@@ -107,12 +160,9 @@ If you have any issues with this project, open an issue on [Github](https://gith
 Developer
 ---------
 
-**Rye Miller**
+ * **Rye Miller** - *Initial work* - [GitHub](http://github.com/iods/), [Homepage](https://ryemiller.io)
 
- * [GitHub](http://github.com/iods/)
- * [@ryemiller](https://twitter.com/ryemiller)
- * [Portfolio](https://ryemiller.io)
- * [Developer Rants](http://drkstr.dev)
+See also the list of [contributors](https://github.com/iods/magento2-bones/contributors) who participated in this project.
 
 
 Versioning	
@@ -131,4 +181,4 @@ This project/code is released under [the MIT license](https://github.com/iods/ma
 Copyright
 ---------
 
-(c) 2020 Rye Miller. All Rights Reserved.
+(c) 2020-2021 Rye Miller. All Rights Reserved.
