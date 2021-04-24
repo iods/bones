@@ -4,7 +4,7 @@
  *
  * @package   Iods_Bones
  * @author    Rye Miller <rye@drkstr.dev>
- * @copyright Copyright © 2020, Rye Miller (https://ryemiller.io)
+ * @copyright Copyright © 2021, Rye Miller (https://ryemiller.io)
  * @license   MIT (https://en.wikipedia.org/wiki/MIT_License)
  */
 -->
@@ -14,7 +14,7 @@
     <type name="Magento\Framework\Console\CommandListInterface">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="iods_sample_command" xsi:type="object">Iods\Bones\Console\Command\SampleCommand</item>
+                <item name="iods_bones_command" xsi:type="object">Iods\Bones\Console\Command\SampleCommand</item>
             </argument>
         </arguments>
     </type>

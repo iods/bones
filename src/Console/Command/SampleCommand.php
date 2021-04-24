@@ -4,7 +4,7 @@
  *
  * @package   Iods_Bones
  * @author    Rye Miller <rye@drkstr.dev>
- * @copyright Copyright © 2020, Rye Miller (https://ryemiller.io)
+ * @copyright Copyright © 2021, Rye Miller (https://ryemiller.io)
  * @license   MIT (https://en.wikipedia.org/wiki/MIT_License)
  */
 declare(strict_types=1);
@@ -12,20 +12,32 @@ declare(strict_types=1);
 namespace Iods\Bones\Console\Command;
 
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\{InputArgument, InputInterface};
 use Symfony\Component\Console\Output\OutputInterface;
 
 class SampleCommand extends Command
 {
     protected function configure()
     {
-        $this->setName('iods:cli:samplecommand');
-        $this->setDescription('A basic sample command for module template.');
+        $this
+            ->setName('iods:bones')
+            ->setDescription('Sample command as an example for module templates.')
+            ->addArgument(
+                'text',
+                InputArgument::OPTIONAL,
+                'Add some random text to display after the command.'
+            );
         parent::configure();
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeIn('<info>Sample command containing no interactions for template.</info>');
+        $text = $input->getArgument('text');
+        if ($text) {
+            $t = '<info>A sample command using args having no interactions with the cli.</info>';
+        } else {
+            $t = '<info>A sample command having no interactions with the cli.</info>';
+        }
+        $output->writeln($t);
     }
 }
